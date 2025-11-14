@@ -20,7 +20,7 @@ export default defineConfig({
 
     // Allow external domains to access the Vite dev server
     allowedHosts: [
-      'nextbi.duckdns.org',
+      'nextbi.dynprocloud.com',
       '35.174.81.186'
     ],
 
