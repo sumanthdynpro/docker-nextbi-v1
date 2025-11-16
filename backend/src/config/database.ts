@@ -11,6 +11,16 @@ const sequelize = new Sequelize({
   username: env.DB_USER,
   password: env.DB_PASS,
   logging: (msg) => logger.debug(msg),
+
+  dialectOptions: env.DB_SSL === "true"
+    ? {
+        ssl: {
+          require: true,
+          rejectUnauthorized: false,
+        },
+      }
+    : {},
+
   define: {
     timestamps: true,
     underscored: false,
