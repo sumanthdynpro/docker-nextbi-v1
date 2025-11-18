@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAuthHeaders } from '../utils/authUtils';
 
 // Backend API URL
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://nextbi.dynprocloud.com';
 
 // Define base URLs for API endpoints according to new structure
 const PROJECT_URL = `${API_URL}/api/project`;
