@@ -2,7 +2,7 @@ import axios, { AxiosError } from 'axios';
 import { getAuthHeaders } from '../utils/authUtils';
 
 // Match the same API_URL structure as in projectService.ts
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://nextbi.dynprocloud.com';
 const PROJECT_URL = `${API_URL}/api/project`;
 
 export interface User {
