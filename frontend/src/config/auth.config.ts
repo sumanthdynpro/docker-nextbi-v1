@@ -4,8 +4,8 @@ export const msalConfig = {
   auth: {
     clientId: '5e301b7f-a5cd-4c6d-8534-5aae66b48203',
     authority: 'https://login.microsoftonline.com/ac68bfba-51b3-481a-be04-41cbda36fdc9',
-    redirectUri: 'http://localhost:3000', // Explicitly set instead of window.location.origin
-    postLogoutRedirectUri: 'http://localhost:3000',
+    redirectUri: 'https://nextbi.dynprocloud.com', // Explicitly set instead of window.location.origin
+    postLogoutRedirectUri: 'https://nextbi.dynprocloud.com',
     navigateToLoginRequestUrl: true,
     protocolMode: ProtocolMode.AAD
   },
