@@ -52,7 +52,7 @@ export interface TableColumnsResponse {
 }
 
 // Make sure this matches the same port as your auth service
-const API_URL = 'http://localhost:3000/api/data-models';
+const API_URL = 'https://nextbi.dynprocloud.com/api/data-models';
 
 export const dataModelService = {
   // Get all data models
