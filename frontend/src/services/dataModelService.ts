@@ -118,7 +118,7 @@ export const dataModelService = {
   async getDatabaseSchema(connectionId: string): Promise<DatabaseSchemaResponse> {
     try {
       const authHeaders = await getAuthHeaders();
-      const response = await axios.get(`http://localhost:3001/api/connections/${connectionId}/schema`, { headers: authHeaders });
+      const response = await axios.get(`https://nextbi.dynprocloud.com/api/connections/${connectionId}/schema`, { headers: authHeaders });
       return response.data.data;
     } catch (error) {
       console.error(`Error fetching schema for connection ${connectionId}:`, error);
