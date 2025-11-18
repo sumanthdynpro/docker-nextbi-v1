@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Backend API URL
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://nextbi.dynprocloud.com';
 
 // Token storage key
 const TOKEN_KEY = 'nextbi_auth_token';
