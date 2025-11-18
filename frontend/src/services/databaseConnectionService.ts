@@ -37,7 +37,7 @@ export interface CreateConnectionDto {
 }
 
 // Make sure this matches the same port as your auth service
-const API_URL = 'http://localhost:3000/api/connections';
+const API_URL = 'https://nextbi.dynprocloud.com/api/connections';
 
 // Use the getAuthHeaders function from authUtils
 
