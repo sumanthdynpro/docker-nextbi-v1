@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAuthHeaders } from '../utils/authUtils';
 
 // API URL for direct query execution
-const API_URL = 'http://localhost:3000/api/query';
+const API_URL = 'https://nextbi.dynprocloud.com/api/query';
 
 export interface QueryResult {
   rows: any[];
